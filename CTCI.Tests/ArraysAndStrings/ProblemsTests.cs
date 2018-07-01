@@ -38,6 +38,20 @@ namespace CTCI.ArraysAndStrings.Tests
             var input = "abca";
             Assert.AreEqual(false, new Problems().HasUniqueCharactersUsingDictionary(input));
         }
+
+        [TestMethod()]
+        public void HasUniqueCharactersUsingHashtableTest_WithAllUniqueCharacters()
+        {
+            var input = "Abc";
+            Assert.AreEqual(true, new Problems().HasUniqueCharactersUsingHashtable(input));
+        }
+
+        [TestMethod()]
+        public void HasUniqueCharactersUsingHashtableTest_WithSomeDuplicationCharacters()
+        {
+            var input = "AbcA";
+            Assert.AreEqual(false, new Problems().HasUniqueCharactersUsingHashtable(input));
+        }
     }
 }
 

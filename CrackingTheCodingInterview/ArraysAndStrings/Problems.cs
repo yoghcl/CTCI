@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
@@ -38,6 +39,25 @@ namespace CTCI.ArraysAndStrings
                 else
                     characters[asciiValue] = true;
 
+            }
+
+            return true;
+        }
+
+        public bool HasUniqueCharactersUsingHashtable(string input)
+        {
+            var characters = new Hashtable();
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (characters.ContainsKey(input[i]))
+                {
+                    return false;
+                }
+                else
+                {
+                    characters[input[i]] = true; //value insertion is just to object the syntax
+                }
             }
 
             return true;
