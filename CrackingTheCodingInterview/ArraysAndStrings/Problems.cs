@@ -56,7 +56,7 @@ namespace CTCI.ArraysAndStrings
                 }
                 else
                 {
-                    characters[input[i]] = true; //this valus is not used
+                    characters[input[i]] = true; //this value is not used
                 }
             }
 
