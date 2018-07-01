@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F78B44A9-4D83-4EEE-97E6-F8BA34D08344}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CrackingTheCodingInterview</RootNamespace>
-    <AssemblyName>CrackingTheCodingInterview</AssemblyName>
+    <RootNamespace>CTCI</RootNamespace>
+    <AssemblyName>CTCI</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

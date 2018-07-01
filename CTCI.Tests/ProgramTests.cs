@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CrackingTheCodingInterview;
+using CTCI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CrackingTheCodingInterview.Tests
+namespace CTCI.Tests
 {
     [TestClass()]
     public class ProgramTests

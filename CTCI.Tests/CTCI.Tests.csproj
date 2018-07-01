@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CrackingTheCodingInterview\CrackingTheCodingInterview.csproj">
+    <ProjectReference Include="..\CrackingTheCodingInterview\CTCI.csproj">
       <Project>{F78B44A9-4D83-4EEE-97E6-F8BA34D08344}</Project>
-      <Name>CrackingTheCodingInterview</Name>
+      <Name>CTCI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
