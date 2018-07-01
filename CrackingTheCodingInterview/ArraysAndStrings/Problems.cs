@@ -56,7 +56,7 @@ namespace CTCI.ArraysAndStrings
                 }
                 else
                 {
-                    characters[input[i]] = true; //value insertion is just to object the syntax
+                    characters[input[i]] = true; //this valus is not used
                 }
             }
 
