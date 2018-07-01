@@ -1,7 +1,0 @@
-C:\Users\yosharma\source\repos\CTCI\CrackingTheCodingInterview\bin\Debug\CrackingTheCodingInterview.exe.config
-C:\Users\yosharma\source\repos\CTCI\CrackingTheCodingInterview\bin\Debug\CrackingTheCodingInterview.exe
-C:\Users\yosharma\source\repos\CTCI\CrackingTheCodingInterview\bin\Debug\CrackingTheCodingInterview.pdb
-C:\Users\yosharma\source\repos\CTCI\CrackingTheCodingInterview\obj\Debug\CrackingTheCodingInterview.csprojAssemblyReference.cache
-C:\Users\yosharma\source\repos\CTCI\CrackingTheCodingInterview\obj\Debug\CrackingTheCodingInterview.csproj.CoreCompileInputs.cache
-C:\Users\yosharma\source\repos\CTCI\CrackingTheCodingInterview\obj\Debug\CrackingTheCodingInterview.exe
-C:\Users\yosharma\source\repos\CTCI\CrackingTheCodingInterview\obj\Debug\CrackingTheCodingInterview.pdb
