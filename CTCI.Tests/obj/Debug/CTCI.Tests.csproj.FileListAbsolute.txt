@@ -1,0 +1,17 @@
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\bin\Debug\CTCI.Tests.dll
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\bin\Debug\CTCI.Tests.pdb
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\bin\Debug\CrackingTheCodingInterview.exe
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\bin\Debug\CrackingTheCodingInterview.pdb
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\bin\Debug\CrackingTheCodingInterview.exe.config
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\obj\Debug\CTCI.Tests.csprojAssemblyReference.cache
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\obj\Debug\CTCI.Tests.csproj.CoreCompileInputs.cache
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\obj\Debug\CTCI.Tests.csproj.CopyComplete
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\obj\Debug\CTCI.Tests.dll
+C:\Users\yosharma\source\repos\CTCI\CTCI.Tests\obj\Debug\CTCI.Tests.pdb
