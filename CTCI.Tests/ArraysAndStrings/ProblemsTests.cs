@@ -29,14 +29,21 @@ namespace CTCI.ArraysAndStrings.Tests
         public void HasUniqueCharactersUsingFixedArrayTest_WithAllUniqueCharacters()
         {
             var input = "Abc";
-            Assert.AreEqual(true, new Problems().HasUniqueCharactersUsingDictionary(input));
+            Assert.AreEqual(true, new Problems().HasUniqueCharactersUsingFixedArray(input));
         }
 
         [TestMethod()]
         public void HasUniqueCharactersUsingFixedArrayTest_WithSomeDuplicateCharacters()
         {
             var input = "abca";
-            Assert.AreEqual(false, new Problems().HasUniqueCharactersUsingDictionary(input));
+            Assert.AreEqual(false, new Problems().HasUniqueCharactersUsingFixedArray(input));
+        }
+
+        [TestMethod()]
+        public void HasUniqueCharactersUsingFixedArrayTest_WithLengthMore128Characters()
+        {
+            var input = "abcadjkrjwlkjr wrjwrjwkjr rwjrkwejrkjwelkr wjrwrjw rkwjkrjewk rwejrjwekrsdfsdfsjfjsdkfjksd fsfjdskfjksdf sdkfsjfksdfks fjsdlkfjsdkfjs";
+            Assert.AreEqual(false, new Problems().HasUniqueCharactersUsingFixedArray(input));
         }
 
         [TestMethod()]
