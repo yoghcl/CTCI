@@ -2,6 +2,8 @@
 *.DS_Store
 [Tt]humbs.db
 
+.vs/
+
 #Visual Studio Files
 [Oo]bj
 [Bb]in
