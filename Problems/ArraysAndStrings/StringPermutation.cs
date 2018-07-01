@@ -30,5 +30,30 @@ namespace Problems.ArraysAndStrings
             Array.Sort(characters);
             return new string(characters);
         }
+
+        public bool IsPermuationUsingCharacterCounts(string input1, string input2)
+        {
+            if (input1.Length != input2.Length) return false;
+
+            //counting the characters in input1
+            var characterCounts = new int[128];
+
+            for (int i = 0; i < input1.Length; i++)
+            {
+                var asciiValue = (int)input1[i];
+                characterCounts[asciiValue]++;
+            }
+
+            for (int i = 0; i < input2.Length; i++)
+            {
+                var asciiValue = (int)input2[i];
+                characterCounts[asciiValue]--;
+
+                if (characterCounts[asciiValue] < 0)
+                    return false;
+            }
+
+            return true;
+        }
     }
 }

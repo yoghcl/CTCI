@@ -37,5 +37,32 @@ namespace Problems.ArraysAndStrings.Tests
 
             Assert.AreEqual(false, new StringPermutation().IsPermutationNaiveMethod(input1, input2));
         }
+
+        [TestMethod()]
+        public void IsPermuationUsingCharacterCountsTest_WhenStringsArePermuationOfAnother()
+        {
+            var input1 = "God is great";
+            var input2 = "odg si taerG";
+
+            Assert.AreEqual(true, new StringPermutation().IsPermuationUsingCharacterCounts(input1, input2));
+        }
+
+        [TestMethod()]
+        public void IsPermuationUsingCharacterCountsTest_WhenStringsAreNotPermuationOfAnother()
+        {
+            var input1 = "God is great";
+            var input2 = "odg si taega";
+
+            Assert.AreEqual(false, new StringPermutation().IsPermuationUsingCharacterCounts(input1, input2));
+        }
+
+        [TestMethod()]
+        public void IsPermuationUsingCharacterCountsTest_WhenStringsAreUnqualLength()
+        {
+            var input1 = "God is great";
+            var input2 = "odg sitaerg";
+
+            Assert.AreEqual(false, new StringPermutation().IsPermuationUsingCharacterCounts(input1, input2));
+        }
     }
 }
