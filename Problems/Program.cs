@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CTCI
+namespace CodingProblems
 {
     public class Program
     {

@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CTCI;
+using CodingProblems;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CTCI.Tests
+namespace CodingProblems.Tests
 {
     [TestClass()]
     public class ProgramTests

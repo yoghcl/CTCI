@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTCI.Tests", "CTCI.Tests\CTCI.Tests.csproj", "{825DB9BF-177B-46AC-B9F4-98686C5DC5A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems.Tests", "Problems.Tests\Problems.Tests.csproj", "{825DB9BF-177B-46AC-B9F4-98686C5DC5A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTCI", "CrackingTheCodingInterview\CTCI.csproj", "{F78B44A9-4D83-4EEE-97E6-F8BA34D08344}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems", "Problems\Problems.csproj", "{F78B44A9-4D83-4EEE-97E6-F8BA34D08344}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

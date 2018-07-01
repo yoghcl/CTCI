@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CTCI.ArraysAndStrings;
+using CodingProblems.ArraysAndStrings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CTCI.ArraysAndStrings.Tests
+namespace CodingProblems.ArraysAndStrings.Tests
 {
     [TestClass()]
     public class ProblemsTests

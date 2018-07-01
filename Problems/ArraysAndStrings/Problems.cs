@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CTCI.ArraysAndStrings
+namespace CodingProblems.ArraysAndStrings
 {
     public class Problems
     {
