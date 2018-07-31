@@ -62,5 +62,18 @@ namespace Problems.DataStructures.LinkedList
             Head = previous;
         }
 
+        public void PrintUsingRecursion()
+        {
+            Print(Head);
+        }
+
+        private void Print(LinkedListNode<T> node)
+        {
+            if (node == null)
+                return;
+            Trace.WriteLine(node.Data);
+            Print(node.Next);
+        }
+
     }
 }
