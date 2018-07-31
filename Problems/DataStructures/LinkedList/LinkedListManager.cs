@@ -45,5 +45,22 @@ namespace Problems.DataStructures.LinkedList
             }
         }
 
+        public void ReverseNode()
+        {
+            LinkedListNode<T> previous = null;
+            LinkedListNode<T> next = null;
+            LinkedListNode<T> current = Head;
+
+            while (current != null)
+            {
+                next = current.Next;
+                current.Next = previous;
+                previous = current;
+                current = next;
+            }
+
+            Head = previous;
+        }
+
     }
 }
