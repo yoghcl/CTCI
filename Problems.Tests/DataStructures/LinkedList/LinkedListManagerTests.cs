@@ -53,5 +53,21 @@ namespace Problems.DataStructures.LinkedList.Tests
             linkedListNodeManager.AddNodeToTheBegining(new LinkedListNode<int>() { Data = 8, Next = null });
             linkedListNodeManager.PrintUsingRecursion();
         }
+
+        [TestMethod()]
+        public void PrintReverseUsingRecursionTest()
+        {
+            var linkedListNodeManager = new LinkedListManager<int>();
+            linkedListNodeManager.AddNodeToTheBegining(new LinkedListNode<int>() { Data = 1, Next = null });
+            linkedListNodeManager.AddNodeToTheBegining(new LinkedListNode<int>() { Data = 2, Next = null });
+            linkedListNodeManager.AddNodeToTheBegining(new LinkedListNode<int>() { Data = 3, Next = null });
+            linkedListNodeManager.AddNodeToTheBegining(new LinkedListNode<int>() { Data = 4, Next = null });
+            linkedListNodeManager.AddNodeToTheBegining(new LinkedListNode<int>() { Data = 5, Next = null });
+            linkedListNodeManager.AddNodeToTheBegining(new LinkedListNode<int>() { Data = 6, Next = null });
+            linkedListNodeManager.AddNodeToTheBegining(new LinkedListNode<int>() { Data = 7, Next = null });
+            linkedListNodeManager.AddNodeToTheBegining(new LinkedListNode<int>() { Data = 8, Next = null });
+            linkedListNodeManager.PrintReverseUsingRecursion();
+
+        }
     }
 }

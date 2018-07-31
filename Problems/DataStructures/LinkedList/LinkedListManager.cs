@@ -67,12 +67,17 @@ namespace Problems.DataStructures.LinkedList
             Print(Head);
         }
 
+        public void PrintReverseUsingRecursion()
+        {
+            Print(Head);
+        }
+
         private void Print(LinkedListNode<T> node)
         {
             if (node == null)
                 return;
-            Trace.WriteLine(node.Data);
             Print(node.Next);
+            Trace.WriteLine(node.Data);
         }
 
     }
