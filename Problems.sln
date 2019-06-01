@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2035
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems.Tests", "Problems.Tests\Problems.Tests.csproj", "{825DB9BF-177B-46AC-B9F4-98686C5DC5A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems", "Problems\Problems.csproj", "{F78B44A9-4D83-4EEE-97E6-F8BA34D08344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph.Problems", "Graph.Problems\Graph.Problems.csproj", "{1961A666-AD33-436A-8771-F5D596771BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph.Problems.Tests", "Graph.Problems.Tests\Graph.Problems.Tests.csproj", "{D286B12C-A54B-420E-99F6-A0CC73CADD3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{F78B44A9-4D83-4EEE-97E6-F8BA34D08344}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F78B44A9-4D83-4EEE-97E6-F8BA34D08344}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F78B44A9-4D83-4EEE-97E6-F8BA34D08344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1961A666-AD33-436A-8771-F5D596771BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1961A666-AD33-436A-8771-F5D596771BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1961A666-AD33-436A-8771-F5D596771BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1961A666-AD33-436A-8771-F5D596771BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D286B12C-A54B-420E-99F6-A0CC73CADD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D286B12C-A54B-420E-99F6-A0CC73CADD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D286B12C-A54B-420E-99F6-A0CC73CADD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D286B12C-A54B-420E-99F6-A0CC73CADD3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
