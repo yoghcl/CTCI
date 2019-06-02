@@ -49,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdjacencyListTests.cs" />
     <Compile Include="AdjacencyMatrixTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
