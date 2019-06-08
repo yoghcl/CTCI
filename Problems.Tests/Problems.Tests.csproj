@@ -51,6 +51,7 @@
     <Compile Include="ArraysAndStrings\ProblemsTests.cs" />
     <Compile Include="ArraysAndStrings\StringPermutationTests.cs" />
     <Compile Include="DataStructures\LinkedList\LinkedListManagerTests.cs" />
+    <Compile Include="Misc\NutsAndBoltsProblemTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
