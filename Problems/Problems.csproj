@@ -48,6 +48,7 @@
     <Compile Include="DataStructures\LinkedList\LinkedListNode.cs" />
     <Compile Include="DynamicProblem\PartitionProblem.cs" />
     <Compile Include="Misc\NutsAndBoltsProblem.cs" />
+    <Compile Include="Misc\UrlShortner.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

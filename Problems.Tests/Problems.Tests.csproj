@@ -53,6 +53,7 @@
     <Compile Include="DataStructures\LinkedList\LinkedListManagerTests.cs" />
     <Compile Include="DynamicProblem\PartitionProblemTests.cs" />
     <Compile Include="Misc\NutsAndBoltsProblemTests.cs" />
+    <Compile Include="Misc\UrlShortnerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
