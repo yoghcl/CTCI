@@ -20,5 +20,15 @@ namespace Problems.Misc.Tests
 
             Assert.AreEqual("dnh", result);
         }
+
+        [TestMethod]
+        public void ShortUrlToIntTest()
+        {
+            var shortUrl = "dnh";
+            var urlShortner = new UrlShortner();
+            var result = urlShortner.ShortUrlToId(shortUrl);
+
+            Assert.AreEqual(12345, result);
+        }
     }
 }
