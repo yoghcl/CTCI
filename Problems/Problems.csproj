@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="ArraysAndStrings\Problems.cs" />
     <Compile Include="ArraysAndStrings\StringPermutation.cs" />
+    <Compile Include="ArraysAndStrings\StringPermutations.cs" />
     <Compile Include="ArraysAndStrings\StringReverse.cs" />
     <Compile Include="DataStructures\LinkedList\LinkedListManager.cs" />
     <Compile Include="DataStructures\LinkedList\LinkedListNode.cs" />

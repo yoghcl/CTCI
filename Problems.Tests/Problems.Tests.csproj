@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArraysAndStrings\ProblemsTests.cs" />
+    <Compile Include="ArraysAndStrings\StringPermutationsTests.cs" />
     <Compile Include="ArraysAndStrings\StringPermutationTests.cs" />
     <Compile Include="ArraysAndStrings\StringReverseTests.cs" />
     <Compile Include="DataStructures\LinkedList\LinkedListManagerTests.cs" />
