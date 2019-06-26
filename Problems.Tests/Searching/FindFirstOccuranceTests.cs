@@ -12,42 +12,82 @@ namespace Problems.Searching.Tests
     public class FindFirstOccuranceTests
     {
         [TestMethod()]
-        public void FirstOccuranceTest_ValidTest()
+        public void FirstOccuranceTest_Recursive_ValidTest()
         {
             var numbers = new int[] { 1, 3, 3, 4, 5, 6 };
             var numberTofind = 3;
 
-            var result = new FindFirstOccurance().FirstOccurance(numbers, numberTofind);
+            var result = new FindFirstOccurance().FirstOccuranceRecursive(numbers, numberTofind);
             Assert.AreEqual(1, result);
         }
 
         [TestMethod()]
-        public void FirstOccuranceTest_ValidTest_For_1()
+        public void FirstOccuranceTest_Recursive_ValidTest_For_1()
         {
             var numbers = new int[] { 1, 3, 3, 4, 5, 6 };
             var numberTofind = 1;
 
-            var result = new FindFirstOccurance().FirstOccurance(numbers, numberTofind);
+            var result = new FindFirstOccurance().FirstOccuranceRecursive(numbers, numberTofind);
             Assert.AreEqual(0, result);
         }
 
         [TestMethod()]
-        public void FirstOccuranceTest_ValidTest_For_4()
+        public void FirstOccuranceTest_Recursive_ValidTest_For_4()
         {
             var numbers = new int[] { 1, 3, 3, 4, 5, 6 };
             var numberTofind = 4;
 
-            var result = new FindFirstOccurance().FirstOccurance(numbers, numberTofind);
+            var result = new FindFirstOccurance().FirstOccuranceRecursive(numbers, numberTofind);
             Assert.AreEqual(3, result);
         }
 
         [TestMethod()]
-        public void FirstOccuranceTest_InValidTest_For_10()
+        public void FirstOccuranceTest_Recursive_InValidTest_For_10()
         {
             var numbers = new int[] { 1, 3, 3, 4, 5, 6 };
             var numberTofind = 10;
 
-            var result = new FindFirstOccurance().FirstOccurance(numbers, numberTofind);
+            var result = new FindFirstOccurance().FirstOccuranceRecursive(numbers, numberTofind);
+            Assert.AreEqual(-1, result);
+        }
+
+        [TestMethod()]
+        public void FirstOccuranceTest_Iterative_ValidTest()
+        {
+            var numbers = new int[] { 1, 3, 3, 4, 5, 6 };
+            var numberTofind = 3;
+
+            var result = new FindFirstOccurance().FirstOccuranceIterative(numbers, numberTofind);
+            Assert.AreEqual(1, result);
+        }
+
+        [TestMethod()]
+        public void FirstOccuranceTest_Iterative_ValidTest_For_1()
+        {
+            var numbers = new int[] { 1, 3, 3, 4, 5, 6 };
+            var numberTofind = 1;
+
+            var result = new FindFirstOccurance().FirstOccuranceIterative(numbers, numberTofind);
+            Assert.AreEqual(0, result);
+        }
+
+        [TestMethod()]
+        public void FirstOccuranceTest_Iterative_ValidTest_For_4()
+        {
+            var numbers = new int[] { 1, 3, 3, 4, 5, 6 };
+            var numberTofind = 4;
+
+            var result = new FindFirstOccurance().FirstOccuranceIterative(numbers, numberTofind);
+            Assert.AreEqual(3, result);
+        }
+
+        [TestMethod()]
+        public void FirstOccuranceTest_Iterative_InValidTest_For_10()
+        {
+            var numbers = new int[] { 1, 3, 3, 4, 5, 6 };
+            var numberTofind = 10;
+
+            var result = new FindFirstOccurance().FirstOccuranceIterative(numbers, numberTofind);
             Assert.AreEqual(-1, result);
         }
     }
