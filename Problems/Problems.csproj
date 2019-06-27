@@ -56,7 +56,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Searching\BinarySearch.cs" />
     <Compile Include="Searching\FindFirstOccurance.cs" />
+    <Compile Include="Searching\InfiniteArraySearch.cs" />
     <Compile Include="Searching\KCounts.cs" />
+    <Compile Include="Searching\SortedRotatedArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

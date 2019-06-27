@@ -59,7 +59,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Searching\BinarySearchTests.cs" />
     <Compile Include="Searching\FindFirstOccuranceTests.cs" />
+    <Compile Include="Searching\InfiniteArraySearchTests.cs" />
     <Compile Include="Searching\KCountsTests.cs" />
+    <Compile Include="Searching\SortedRotatedArrayTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
