@@ -35,19 +35,51 @@ namespace Problems.Searching
                 return -1;
         }
 
+        public int Minimum(int[] numbers)
+        {
+            var index = MaximumElementIndex(numbers, 0, numbers.Length - 1);
+            if (index > -1)
+            {
+                if (index == numbers.Length - 1)
+                    return numbers[0];
+                if (index == 0)
+                    return numbers[numbers.Length - 1];
+                else
+                    return numbers[index + 1];
+            }
+            else
+                return -1;
+        }
+
         private int MaximumElementIndex(int[] numbers, int low, int high)
         {
             if (low > high) return -1;
 
             var mid = low + (high - low) / 2;
 
-            if ((numbers[low] < numbers[mid]) && (numbers[mid] > numbers[mid + 1]))
+            if ((mid == 0 || numbers[low] <= numbers[mid]) && (mid == numbers.Length -1 || numbers[mid] >= numbers[mid + 1]))
                 return mid;
 
             if (numbers[mid] >= numbers[low])
                 return MaximumElementIndex(numbers, mid + 1, high);
             else
                 return MaximumElementIndex(numbers, low, mid - 1);
+
+        }
+
+        private int MinimumElementIndex(int[] numbers, int low, int high)
+        {
+            if (low > high) return -1;
+
+            var mid = low + (high - low) / 2;
+
+            if ((numbers[low] > numbers[mid]) && (numbers[mid] < numbers[mid + 1]))
+                return mid;
+
+            if (numbers[mid] > numbers[low])
+                return MinimumElementIndex(numbers, mid + 1, high);
+            else
+                return MinimumElementIndex(numbers, low, mid - 1);
 
         }
 

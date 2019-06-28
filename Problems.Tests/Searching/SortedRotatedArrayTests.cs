@@ -60,5 +60,26 @@ namespace Problems.Searching.Tests
 
             Assert.AreEqual(6, new SortedRotatedArray().Find(numbers, numberTofind));
         }
+
+        [TestMethod()]
+        public void Minimum_Should_Return_6()
+        {
+            var numbers = new int[] { 10, 20, 40, 50, 6, 7, 8 };
+            Assert.AreEqual(6, new SortedRotatedArray().Minimum(numbers));
+        }
+
+        [TestMethod()]
+        public void Minimum_Should_Return_1()
+        {
+            var numbers = new int[] { 2, 3, 4, 5, 6, 7, 8, 9, 10, 1 };
+            Assert.AreEqual(1, new SortedRotatedArray().Minimum(numbers));
+        }
+
+        [TestMethod()]
+        public void Minimum_Should_Return_0()
+        {
+            var numbers = new int[] { 8, 6, 4, 2, 0 };
+            Assert.AreEqual(0, new SortedRotatedArray().Minimum(numbers));
+        }
     }
 }
