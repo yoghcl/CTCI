@@ -58,6 +58,7 @@
     <Compile Include="Searching\FindFirstOccurance.cs" />
     <Compile Include="Searching\InfiniteArraySearch.cs" />
     <Compile Include="Searching\KCounts.cs" />
+    <Compile Include="Searching\PeakElementProblem.cs" />
     <Compile Include="Searching\SortedRotatedArray.cs" />
   </ItemGroup>
   <ItemGroup>

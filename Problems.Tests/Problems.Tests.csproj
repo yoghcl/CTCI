@@ -61,6 +61,7 @@
     <Compile Include="Searching\FindFirstOccuranceTests.cs" />
     <Compile Include="Searching\InfiniteArraySearchTests.cs" />
     <Compile Include="Searching\KCountsTests.cs" />
+    <Compile Include="Searching\PeakElementProblemTests.cs" />
     <Compile Include="Searching\SortedRotatedArrayTests.cs" />
   </ItemGroup>
   <ItemGroup>
