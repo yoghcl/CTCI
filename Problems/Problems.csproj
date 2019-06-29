@@ -60,6 +60,7 @@
     <Compile Include="Searching\KCounts.cs" />
     <Compile Include="Searching\PeakElementProblem.cs" />
     <Compile Include="Searching\SortedRotatedArray.cs" />
+    <Compile Include="Searching\SquareRootProblem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

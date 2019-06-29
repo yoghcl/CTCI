@@ -63,6 +63,7 @@
     <Compile Include="Searching\KCountsTests.cs" />
     <Compile Include="Searching\PeakElementProblemTests.cs" />
     <Compile Include="Searching\SortedRotatedArrayTests.cs" />
+    <Compile Include="Searching\SquareRootProblemTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
