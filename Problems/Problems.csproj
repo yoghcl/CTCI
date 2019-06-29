@@ -54,6 +54,7 @@
     <Compile Include="Misc\UrlShortner.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Searching\ArraySum.cs" />
     <Compile Include="Searching\BinarySearch.cs" />
     <Compile Include="Searching\FindFirstOccurance.cs" />
     <Compile Include="Searching\InfiniteArraySearch.cs" />

@@ -57,6 +57,7 @@
     <Compile Include="Misc\NutsAndBoltsProblemTests.cs" />
     <Compile Include="Misc\UrlShortnerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Searching\ArraySumTests.cs" />
     <Compile Include="Searching\BinarySearchTests.cs" />
     <Compile Include="Searching\FindFirstOccuranceTests.cs" />
     <Compile Include="Searching\InfiniteArraySearchTests.cs" />
