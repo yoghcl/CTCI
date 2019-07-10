@@ -10,7 +10,14 @@ namespace Tree.Problems
 
         public void AddNode(BinaryTreeNode node)
         {
+            if (Root != null)
+            {
 
+            }
+            else
+            {
+                this.Root = node;
+            }
         }
     }
 }
