@@ -41,5 +41,40 @@ namespace Tree.Problems
             }
         }
 
+        public List<T> InOrderTraversal(BinaryTreeNode<T> root)
+        {
+            var items = new List<T>();
+            InOrderTaversal(root, items);
+
+            return items;
+        }
+
+        private void InOrderTaversal(BinaryTreeNode<T> root, List<T> items)
+        {
+            if (root == null)
+                return;
+
+            InOrderTaversal(root.Left, items);
+            items.Add(root.Data);
+            InOrderTaversal(root.Right, items);
+        }
+
+        public List<T> PreOrderTraversal(BinaryTreeNode<T> root)
+        {
+            var items = new List<T>();
+            PreOrderTaversal(root, items);
+
+            return items;
+        }
+
+        private void PreOrderTaversal(BinaryTreeNode<T> root, List<T> items)
+        {
+            if (root == null)
+                return;
+
+            items.Add(root.Data);
+            PreOrderTaversal(root.Left, items);
+            PreOrderTaversal(root.Right, items);
+        }
     }
 }

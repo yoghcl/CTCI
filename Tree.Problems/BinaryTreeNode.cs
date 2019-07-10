@@ -16,5 +16,17 @@ namespace Tree.Problems
         {
             this.Data = data;
         }
+
+        public BinaryTreeNode()
+        {
+
+        }
+
+        public BinaryTreeNode(T data, BinaryTreeNode<T> left, BinaryTreeNode<T> right)
+        {
+            this.Data = data;
+            this.Left = left;
+            this.Right = right;
+        }
     }
 }
