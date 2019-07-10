@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph.Problems", "Graph.Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph.Problems.Tests", "Graph.Problems.Tests\Graph.Problems.Tests.csproj", "{D286B12C-A54B-420E-99F6-A0CC73CADD3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree.Problems", "Tree.Problems\Tree.Problems.csproj", "{C6F6C396-D8B6-4755-A8B9-8089D44CBCAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree.Problems", "Tree.Problems\Tree.Problems.csproj", "{C6F6C396-D8B6-4755-A8B9-8089D44CBCAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree.Problems.Test", "Tree.Problems.Test\Tree.Problems.Test.csproj", "{19B9D68B-42AE-4EA9-9779-3D6A5D2121EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C6F6C396-D8B6-4755-A8B9-8089D44CBCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6F6C396-D8B6-4755-A8B9-8089D44CBCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6F6C396-D8B6-4755-A8B9-8089D44CBCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B9D68B-42AE-4EA9-9779-3D6A5D2121EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B9D68B-42AE-4EA9-9779-3D6A5D2121EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B9D68B-42AE-4EA9-9779-3D6A5D2121EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B9D68B-42AE-4EA9-9779-3D6A5D2121EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

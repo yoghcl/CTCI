@@ -4,20 +4,42 @@ using System.Text;
 
 namespace Tree.Problems
 {
-    public class BinaryTreeManager
+    public class BinaryTreeManager<T>
     {
-        public BinaryTreeNode Root { get; set; }
+        public BinaryTreeNode<T> Root { get; set; }
 
-        public void AddNode(BinaryTreeNode node)
+        public void AddNode(T value)
         {
-            if (Root != null)
-            {
+            var newNode = new BinaryTreeNode<T>(value);
+            var queue = new Queue<BinaryTreeNode<T>>();
 
-            }
-            else
+            queue.Enqueue(newNode);
+
+            while (queue.Count > 0)
             {
-                this.Root = node;
+                var temp = queue.Dequeue();
+
+                if (temp.Left != null)
+                {
+                    queue.Enqueue(temp.Left);
+                }
+                else
+                {
+                    temp.Left = newNode;
+                    break;
+                }
+
+                if (temp.Right != null)
+                {
+                    queue.Enqueue(temp.Right);
+                    break;
+                }
+                else
+                {
+                    temp.Right = newNode;
+                }
             }
         }
+
     }
 }

@@ -4,19 +4,17 @@ using System.Text;
 
 namespace Tree.Problems
 {
-    public class BinaryTreeNode
+    public class BinaryTreeNode<T>
     {
-        public int Data { get; }
+        public T Data { get; }
 
-        public BinaryTreeNode Left { get; }
+        public BinaryTreeNode<T> Left { get; set; }
 
-        public BinaryTreeNode Right { get; }
+        public BinaryTreeNode<T> Right { get; set; }
 
-        public BinaryTreeNode(int data, BinaryTreeNode left, BinaryTreeNode right)
+        public BinaryTreeNode(T data)
         {
             this.Data = data;
-            this.Left = left;
-            this.Right = right;
         }
     }
 }

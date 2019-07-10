@@ -5,7 +5,7 @@ namespace Tree.Problems
 {
     public class GenerateTreeFromThePostOrderTraversal
     {
-        public BinaryTreeNode GetTree(List<int> list)
+        public BinaryTreeNode<T> GetTree<T>(List<T> list)
         {
             return null;
         }
